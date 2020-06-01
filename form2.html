@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html,htmlprograme,html forms, forms">
+    <title>Consent for free pirple courses</title>
+</head>
+
+<body>
+    <font color="Blue">
+        <h1>Consent for free <font color="red"><em><b>Pirple</b></em></font> courses</h1>
+    </font>
+    <form action="backend.php">
+        <div>
+            <label for="name">Name</label><br>
+            <input type="text" name="myname" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="email">Mail Id</label><br>
+            <input type="email" name="myemail" id="email">
+        </div>
+        <br>
+        <div>
+            Branch : <select name="mybranch">
+                <option value="cse">Computer Science</option>
+                <option value="it">Information Technology</option>
+                <option value="ee">Electrical Engineering</option>
+                <option value="ce">Civil Engineering</option>
+                <option value="ec">Electronics and Communication</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="sem">Semester</label>
+            <select name="mysemester" id="sem">
+                <option value="1">1st</option>
+                <option value="2">3rd</option>
+                <option value="3">5th</option>
+                <option value="4">7th</option>
+            </select>
+        </div>
+        <div>
+            Willingness of the courses :
+            <label for="yn">Yes</label><input type="radio" selected name="mywillingness" id="yn"> <label
+                for="n">No</label>
+            <input type="radio" name="mywillingness" id="n">
+        </div><br>
+        Which course you want please provide us in the given below box : <br> <textarea name="mycourse" cols="40"
+            rows="1"></textarea>
+    </form>
+</body>
+
+</html>
